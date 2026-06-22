@@ -1,0 +1,21 @@
+# Ravinder
+
+Full Stack Developer & Software Engineer based in India.
+Portfolio: https://ravindertech.me
+
+## Profile
+Ravinder specializes in building clean, modern websites and applications where design, functionality, and minor details matter. Focused on creating products that are both highly practical and visually satisfying.
+
+## Key Projects
+- **Portfolio & Resume Studio**: A customized portfolio showcasing experiences, project history, and dynamic resume tools.
+
+## Technical Skills
+- **Frontend**: React, Next.js, TypeScript, TailwindCSS, Framer Motion, HTML5, CSS3, JavaScript.
+- **Backend & Database**: Node.js, Express, PostgreSQL, Neon Database, Drizzle ORM.
+- **DevOps & Tools**: Git, Vercel, Netlify, Bun, npm.
+
+## Online Presence & Contact
+- **Email**: ravinder92809@mail.com
+- **GitHub**: https://github.com/ravinder9280
+- **LinkedIn**: https://www.linkedin.com/in/ravinder92809/
+- **Twitter / X**: https://x.com/Ravinder387573
