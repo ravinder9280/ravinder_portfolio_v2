@@ -15,8 +15,8 @@ export const Doodles: Projects = {
   name: "Doodles",
   startDate: "2025",
   endDate: "Present",
-  liveLink: "",
-  githubLink: "",
+  liveLink: "https://doodles-brown.vercel.app",
+  githubLink: "https://github.com/ravinder9280/doodles",
   projectIcon: "",
   projectImage: "/project/doodles.png",
   shortDescription:

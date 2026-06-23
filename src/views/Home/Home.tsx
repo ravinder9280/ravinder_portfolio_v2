@@ -16,10 +16,10 @@ export default function Home() {
         <Banner />
         <Profile />
         <AboutMe />
-        <GitHubGraph />
+        <Experience />
         <Project />
         <Techstack />
-        <Experience />
+        <GitHubGraph />
         {/* <Blogs /> */}
         <Quote />
         <Footer />
