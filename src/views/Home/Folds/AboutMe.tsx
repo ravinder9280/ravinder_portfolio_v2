@@ -18,7 +18,7 @@ const AboutMe = () => {
             <span className="font-semibold text-foreground">visually satisfying</span>.
           </p>
           <div className="flex gap-2">
-            <Link href={"https://cal.com/ashutosh-tiwari-dm1"} target="_blank">
+            <Link href={"https://cal.com/ravinder-zpzfv7/15min?user=ravinder-zpzfv7&overlayCalendar=true"} target="_blank">
               <Button
                 className={cn(
                   "rounded-sm border-none ring-1 text-[13px] font-light ",

@@ -20,21 +20,11 @@ const Banner = () => {
       <LineY className="border-t border-b-0">
         <SubSection>
           <div className="flex justify-center h-70 w-full items-center overflow-hidden relative bg-background ">
-            {/* Light Theme Banner Image */}
+            
             <Image
               width={1000}
               height={1000}
-              className={cn("h-full w-full object-cover object-bottom block dark:hidden")}
-              src={banner.cover3}
-              alt="Hero Light"
-              style={maskStyle}
-              priority
-            />
-            {/* Dark Theme Banner Image */}
-            <Image
-              width={1000}
-              height={1000}
-              className={cn("h-full w-full object-cover lg:object-top object-right hidden dark:block")}
+              className={cn("h-full w-full object-cover lg:object-top object-right ")}
               src={banner.footer5}
               alt="Hero Dark"
               style={maskStyle}

@@ -25,8 +25,8 @@ const dm_sans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ravindertech.me"),
   title: "Ravinder",
-  description: "Full stack developer specializing in clean, modern websites and apps where design, functionality, and details matter. Currently building XContext.",
-  keywords: ["Ravinder", "Software Engineer", "Full Stack Developer", "Next.js", "React", "TypeScript", "XContext", "Portfolio"],
+  description: "Full Stack",
+  keywords: ["Ravinder", "Software Engineer", "Full Stack Developer", "Next.js", "React", "TypeScript", "Portfolio"],
   authors: [{ name: "Ravinder" }],
   creator: "Ravinder",
   alternates: {

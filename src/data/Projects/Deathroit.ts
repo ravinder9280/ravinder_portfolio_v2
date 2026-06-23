@@ -15,6 +15,7 @@ import {
   Language,
   ReverseProxy,
   AIGateway,
+  messageBroker,
 } from "@/types/project.types";
 
 export const Deathroit: Projects = {
@@ -23,19 +24,20 @@ export const Deathroit: Projects = {
   startDate: "2025",
   endDate: "Present",
   liveLink: "https://deathroit.ravindertech.me",
-  githubLink: "https://github.com/AshutoshDM1/Xcontext",
+  githubLink: "https://github.com/ravinder9280/deathroits",
   projectIcon: "https://deathroit.elitedev.space/favicon.ico",
   projectImage: "/project/deathroit.png",
   shortDescription:
-    "XContext is a platform for taking AI interview of given Codebase and Contests.",
-  description: `XContext is a platform for taking AI interview of given Codebase.
+    "ESports tournament platform that allows gamers to discover, join, and compete in competitive tournaments. Players can track their matches, standings, rewards, and progress while organizers manage tournaments seamlessly.",
+  description: `Deathroit is an eSports tournament platform that allows gamers to discover, join, and compete in competitive tournaments. Players can track their matches, standings, rewards, and progress while organizers manage tournaments seamlessly.
 
-- Advanced manga search, filtering, and pagination
-- Personalized reading progress and collections
-- Full admin dashboard for manga/chapter management
-- AWS EC2 + Docker deployment with CI/CD pipelines
-- Zustand-powered modular frontend architecture
-- Smooth responsive animations and optimized reading experience`,
+## Features
+- **Tournament Discovery** — Players can browse and join open tournaments across multiple game titles.
+- **Live Match Tracking** — Real-time match updates, standings, and bracket progression.
+- **Rewards & Leaderboards** — Track progress, earn rewards, and compete on global leaderboards.
+- **Organizer Dashboard** — Tournament organizers can create, manage, and moderate competitions seamlessly.
+- **Job Queues** — BullMQ-powered background jobs handle bracket generation, notifications, and score updates reliably.
+- **Authentication** — Secure auth flows powered by Better-Auth with session management.`,
   backgroundImage: bg.image8,
   pinned: false,
   status: ProjectStatus.Building,
@@ -60,22 +62,60 @@ export const Deathroit: Projects = {
   isOpenSource: true,
   architecture: false,
   apps: {
-    frontend: false,
-    backend: false,
-    cliTool: {
-      id: 10,
-      name: "Xcontext",
-      npmLink: "https://www.npmjs.com/package/xcontext",
-      github: "https://github.com/AshutoshDM1/Xcontext",
+    frontend: {
+      id: 5,
+      name: "Deathroit",
+      link: "https://deathroit.ravindertech.me",
+      github: "https://github.com/ravinder9280/deathroits",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Better-Auth",
+      ],
       language: Language.TypeScript,
-      techStack: ["Node.js", "TypeScript", "Commander.js", "Ora", "Chalk"],
-      isCICD: CICD.GithubActions,
-      npmVersion: "1.0.0",
-      githubVersion: "1.0.0",
-      projectStatus: ProjectStatus.Completed,
+      isContianerized: false,
+      isCICD: false,
+      deploymentPlatform: DeploymentPlatform.Vercel,
+      deploymentStatus: DeploymentStatus.Building,
+      monitoringTool: false,
+      isCustomDomain: true,
+    },
+    backend: {
+      id: 5,
+      name: "Deathroit Backend",
+      link: "",
+      github: "https://github.com/ravinder9280/deathroits",
+      techStack: [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "Prisma",
+        "BullMQ",
+        "Better-Auth",
+      ],
+      language: Language.TypeScript,
+      isContianerized: Containerized.Docker,
+      isCICD: false,
+      deploymentPlatform: DeploymentPlatform.DigitalOcean,
+      dbBackup: false,
+      databaseHosting: DatabaseHosting.NeonDB,
+      deploymentStatus: DeploymentStatus.Building,
+      monitoringTool: false,
+      isCustomDomain: false,
+      authentication: Authentication.BetterAuth,
+      aIGateway: false,
+      reverseProxy: ReverseProxy.Nginx,
+      ORM: ORM.Prisma,
+      caching: false,
+      messageBroker: messageBroker.BullMQ,
+      objectStorage: false,
+      isTested: false,
     },
     microService: false,
     mpcServer: false,
     sdk: false,
+    cliTool: false,
   },
 };

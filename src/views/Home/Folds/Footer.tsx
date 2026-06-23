@@ -123,12 +123,12 @@ export default function Footer() {
           <span>
             &copy; 2026{" "}
             <Link
-              href="https://github.com/ashutoshdm1"
+              href="https://github.com/ravinder9280"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium  underline decoration-current/30 hover:decoration-current underline-offset-4 transition-colors"
             >
-              Ashutosh Tiwari
+              Ravinder
             </Link>
             . The source &middot; All rights reserved
           </span>
