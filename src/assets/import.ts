@@ -1,17 +1,7 @@
-import cover1 from "./banner/cover1.png";
-import cover2 from "./banner/cover2.jpg";
-import cover3 from "./banner/cover3.jpg";
-import cover4 from "./banner/cover4.jpg";
-import cover5 from "./banner/cover5.jpg";
-import cover6 from "./banner/cover6.jpeg";
-import footer1 from "./banner/footer1.webp";
-import footer2 from "./banner/footer2.jpg";
-import footer3 from "./banner/footer3.jpg";
-import footer4 from "./banner/footer4.jpg";
-import footer5 from "./banner/footer5.jpg";
+import footer5 from "./banner/footer5.jpg";``
 import footer6 from "./banner/footer6.jpg";
 
-export const banner = { cover1, cover2, cover3, cover4, cover5, cover6,footer1 , footer2 , footer3 , footer4, footer5, footer6};
+export const banner = { footer5, footer6};
 
 import image1 from "./background/image1.webp";
 import image2 from "./background/image2.webp";

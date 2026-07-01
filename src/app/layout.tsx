@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "Ravinder Portfolio",
     images: [
       {
-        url: "/og-image.webp",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Ravinder | Software Engineer Portfolio",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Ravinder | Software Engineer",
     description: "Full stack developer specializing in clean, modern websites and apps where design, functionality, and details matter.",
     creator: "@Ravinder",
-    images: ["/og-image.webp"],
+    images: ["/og-image.png"],
   },
 };
 
