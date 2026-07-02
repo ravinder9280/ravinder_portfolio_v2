@@ -8,7 +8,7 @@ export default function ProjectNotFound() {
     <div className="pt-5 bg-background">
       <LineY className="border-t">
         <SubSection>
-          <Error404/>
+          <Error404 postcardAlt="/avatar/avatar.jpeg" />
         </SubSection>
       </LineY>
     </div>

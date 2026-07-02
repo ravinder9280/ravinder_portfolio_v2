@@ -17,7 +17,7 @@ interface Error404Props {
 }
 
 export function Error404({
-  postcardImage = banner.cover2,
+  postcardImage,
   postcardAlt = "New York City Postcard",
   heading = "404",
   subtext = "Senpai must have got lost while training , however you can explore my works",
@@ -32,7 +32,7 @@ export function Error404({
             <div className="relative p-3 shadow-2xl rotate-[4deg] hover:rotate-0 transition-transform duration-300 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
               <div className="relative overflow-hidden w-[360px] h-[220px]">
                 <Image
-                  src={postcardImage}
+                  src={postcardImage||""}
                   alt={postcardAlt}
                   fill
                   className="object-cover"
