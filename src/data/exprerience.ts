@@ -9,7 +9,7 @@ export const Experiences: Experience[] = [
     position: "Software Development Intern",
     startDate: "Aug, 2025",
     endDate: "Present",
-    companyLocation: "Remote",
+    companyLocation: "Indore, India",
     userLocation: "Remote",
     jobType: "Internship",
     description: [
