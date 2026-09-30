@@ -4,6 +4,34 @@ export const Experiences: Experience[] = [
  
   {
     id: 1,
+    company: "Almanet",
+    companyIcon: "/company/almanet.jpeg",
+    position: "Software Development Intern",
+    startDate: "Aug, 2025",
+    endDate: "Present",
+    companyLocation: "Remote",
+    userLocation: "Remote",
+    jobType: "Internship",
+    description: [
+      "Architected asynchronous LLM agent orchestration pipelines and inter-agent communication protocols for autonomous workflows",
+      "Engineered secure authentication cookie protocols to enforce strict endpoint-level access controls",
+      "Optimized real-time WebSocket event streams to guarantee low-latency messaging.",
+    ],
+    skills: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Python",
+      "Fast API",
+      "Langchain",
+      "Tailwind CSS",
+      "Socket.io",
+      "SEO",
+      "Vercel",
+    ],
+  },
+  {
+    id: 2,
     company: "Natplus.io",
     companyIcon: "/company/natplus.png",
     position: "Frontend Developer Intern",
@@ -32,7 +60,7 @@ export const Experiences: Experience[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: "Bachelor of Computer Application",
     companyIcon: "/company/cap.png",
     position: "Student",
